@@ -8,7 +8,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Connect to MongoDB
-mongoose.connect("mongodb+srv://TejAdmin:DderkH00rKBtBFIQ@cluster0.o9up0.mongodb.net/", {
+mongoose.connect("enter ur mongo db string", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
